@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/div_task_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:height="30dp"
+    android:background="@drawable/bg_table_list_task"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:text="task name"
+    android:textSize="12sp" />

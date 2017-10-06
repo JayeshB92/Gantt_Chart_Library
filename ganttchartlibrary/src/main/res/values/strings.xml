@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GanttChartLibrary</string>
+
+    <string name="text_gantt_task_title">Task Name</string>
+    <string name="text_gantt_today">Today</string>
+    <string name="text_gantt_week">wk #</string>
+</resources>

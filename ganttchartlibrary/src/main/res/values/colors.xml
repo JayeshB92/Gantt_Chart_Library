@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--FOR GANTT-->
+
+    <color name="list_item_bg">#ffffff</color>
+    <color name="status_0">#ffffff</color>
+    <color name="status_1">#fff0f2</color>
+    <color name="status_2">#ffe2e5</color>
+    <color name="status_3">#ffd4d8</color>
+    <color name="status_4">#ffc6cc</color>
+    <color name="status_5">#ffb8bf</color>
+    <color name="status_6">#ffa9b2</color>
+    <color name="status_7">#ff9ba6</color>
+    <color name="status_8">#ff8d99</color>
+    <color name="status_9">#ff7f8c</color>
+    <color name="status_10">#ffffff</color>
+
+    <color name="bg_start">#c4ced3</color>
+    <color name="bg_end">#ffe2e5</color>
+
+    <!--Gantt Chart Colors-->
+    <color name="scale_dayoff">#c4ced3</color>
+    <color name="today_line">#FF9999</color>
+    <color name="milestone_line">#F8B239</color>
+    <color name="bar_done">#009AB6</color>
+    <color name="bar_undone">#00B7D6</color>
+    <color name="bar_border">#0096B2</color>
+    <color name="bar_shadow">#009688</color>
+    <color name="bar_text">#ffffff</color>
+
+    <!--Status Colors-->
+    <color name="bar_delayed">#FF0024</color>
+    <color name="bar_cancelled">#4D505E</color>
+    <color name="bar_on_hold">#FFC300</color>
+    <color name="bar_before_time">#BB32CD</color>
+    <color name="bar_on_track">#00DA53</color>
+    <color name="bar_completed">#00C1AF</color>
+
+</resources>
