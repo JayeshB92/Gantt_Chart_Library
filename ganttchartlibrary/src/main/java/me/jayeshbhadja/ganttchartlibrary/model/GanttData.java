@@ -12,6 +12,14 @@ public class GanttData {
     private List<Task> tasks;
     private List<Milestone> milestones;
 
+    /**
+     * Initializing Gantt Data
+     *
+     * @param project    Project
+     * @param tasks      list of Task
+     * @param milestones list of Milestones
+     * @return GanttData
+     */
     public static GanttData initGanttData(Project project, List<Task> tasks, List<Milestone> milestones) {
         ganttData = new GanttData();
         ganttData.setProject(project);
@@ -29,6 +37,11 @@ public class GanttData {
         return project;
     }
 
+    /**
+     * Setter for project object
+     * @param project
+     * Project Class Object
+     */
     public void setProject(Project project) {
         this.project = project;
     }
@@ -37,6 +50,11 @@ public class GanttData {
         return tasks;
     }
 
+    /**
+     * Setter for Task List
+     * @param tasks
+     * List<Task>
+     */
     public void setTasks(List<Task> tasks) {
         this.tasks = tasks;
     }
@@ -45,6 +63,11 @@ public class GanttData {
         return milestones;
     }
 
+    /**
+     * Setter for Milestone List
+     * @param milestones
+     * List<Milestone>
+     */
     public void setMilestones(List<Milestone> milestones) {
         this.milestones = milestones;
     }

@@ -11,6 +11,9 @@ import me.jayeshbhadja.ganttchartlibrary.R;
 import me.jayeshbhadja.ganttchartlibrary.adapter.GanttTableAdapter;
 import me.jayeshbhadja.ganttchartlibrary.model.GanttData;
 
+/**
+ * Gantt Chart AppCompatActivity to view chart
+ */
 public class Gantt extends AppCompatActivity {
     private static final String TAG = Gantt.class.getSimpleName();
     private GanttData ganttData;
@@ -23,7 +26,7 @@ public class Gantt extends AppCompatActivity {
         if (ganttData != null)
             setGanttTable();
         else
-            Log.e(TAG, "Gantt Data Null");
+            Log.e(TAG, "Gantt Data Null, Please Set Gantt Data.");
     }
 
     private void setGanttTable() {
