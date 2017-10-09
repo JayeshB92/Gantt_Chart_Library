@@ -6,7 +6,7 @@ ext {
 
     publishedGroupId = 'me.jayeshbhadja.ganttchart'
     libraryName = 'Gantt-Chart-Library'
-    artifact = 'Gantt-Chart-Library'
+    artifact = 'GanttChartLibrary'
 
     libraryDescription = 'Android Gantt Chart Library'
 
@@ -63,3 +63,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
 }
+
+apply from: 'https://raw.githubusercontent.com/JayeshB92/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/JayeshB92/JCenter/master/bintrayv1.gradle'
